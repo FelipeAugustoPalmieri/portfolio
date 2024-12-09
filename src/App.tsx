@@ -1,8 +1,18 @@
 import React from 'react';
-import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Tailwind from './components/Tailwind';
 
 function App() {
-  return <h1>Portfolio</h1>
+  return (
+    <div>
+      <Header />
+      <Tailwind />
+      <h1>Conteudo...</h1>
+      <Footer />
+    </div>
+
+  )
 }
 
 export default App;
