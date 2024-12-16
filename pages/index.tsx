@@ -6,6 +6,7 @@ const HomePage = () => {
     <div className="overflow-x-hidden">
       <div>
         <Nav />
+        {/* Hero section */}
       </div>
     </div>
   );
