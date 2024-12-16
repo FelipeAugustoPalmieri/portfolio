@@ -8,8 +8,6 @@ const HomePage = () => {
       <div>
         {/* Navbar */}
         <Nav />
-        {/* Hero section */}
-        <Hero />
       </div>
     </div>
   );
