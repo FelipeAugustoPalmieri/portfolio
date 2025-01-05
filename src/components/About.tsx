@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import felipe from "@/assets/felipe2.jpg";
+import felipeAbout from "@/assets/felipeAbout.jpg";
 import { ABOUT_TEXT } from "@/constants";
 
 const About = () => {
@@ -13,9 +14,9 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center">
-            <div className="relative w-96 h-96 rounded-xl overflow-hidden shadow-md opacity-30">
+            <div className="relative w-96 h-96 rounded-xl overflow-hidden shadow-md opacity-25">
               <Image
-                src={felipe}
+                src={felipeAbout}
                 alt="Felipe Palmieri"
                 layout="fill"
                 objectFit="cover"
