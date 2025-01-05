@@ -1,6 +1,7 @@
 import React from "react";
 import felipe from "@/assets/felipe2.jpg";
 import Image from "next/image";
+import { HERO_CONTENT } from "@/constants";
 
 const Hero = () => {
   return (
@@ -15,10 +16,7 @@ const Hero = () => {
               Software Engineer
             </span>
             <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              ratione eos alias dolor! Aperiam reiciendis, possimus eum
-              doloribus asperiores hic nemo rerum. Ipsam architecto mollitia
-              provident autem, repudiandae esse repellat.
+              {HERO_CONTENT}
             </p>
           </div>
         </div>
