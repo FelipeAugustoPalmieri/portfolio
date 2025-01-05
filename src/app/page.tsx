@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
+import Technologies from "@/components/Technologies";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="container mx-auto px-8">
         <Hero />
         <About />
+        <Technologies />
       </div>
     </div>
   );
