@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import felipe from "@/assets/felipe2.jpg";
+import { ABOUT_TEXT } from "@/constants";
 
 const About = () => {
   return (
@@ -24,12 +25,7 @@ const About = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
-              nostrum distinctio maxime sunt repellendus nobis quibusdam quasi
-              ducimus beatae voluptatem consequuntur tempore, officia eveniet
-              assumenda optio, minima, provident repudiandae omnis!
-            </p>
+            <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
           </div>
         </div>
       </div>
