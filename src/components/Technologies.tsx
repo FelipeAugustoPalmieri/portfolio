@@ -12,11 +12,11 @@ import { motion } from "framer-motion";
 const iconVariants = (duration: number) => ({
   initial: { y: -10 },
   animate: {
-    y: [0, -10, 0], // Vai para cima e volta para a posição original
+    y: [0, -10, 0],
     transition: {
-      duration: duration, // Tempo customizado
-      ease: "easeInOut", // Transição suave
-      repeat: Infinity, // Repetição infinita
+      duration: duration,
+      ease: "easeInOut",
+      repeat: Infinity,
     },
   },
 });
