@@ -22,22 +22,24 @@ const Navbar = () => {
         <Image src={navGif} alt="gif" unoptimized />
       </motion.div>
       <div className="m-8 flex items-center justify-center gap-5 text-2xl">
-        <a
+        <motion.a
+          whileHover={{ y: -10 }}
           href="https://www.linkedin.com/in/felipe-palmieri-94a2482b7/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-5xl hover:text-pink-100 transition-transform duration-500 ease-in-out hover:scale-125"
         >
           <FaLinkedin />
-        </a>
-        <a
+        </motion.a>
+        <motion.a
+          whileHover={{ y: -10 }}
           href="https://github.com/FelipeAugustoPalmieri"
           target="_blank"
           rel="noopener noreferrer"
           className="text-5xl hover:text-pink-100 transition-transform duration-500 ease-in-out hover:scale-125"
         >
           <FaGithub />
-        </a>
+        </motion.a>
       </div>
     </motion.nav>
   );
