@@ -1,3 +1,6 @@
+import felipeAbout from "@/assets/felipeAbout.jpg";
+import { StaticImageData } from "next/image";
+
 // Tipo para EXPERIENCES
 interface Experience {
   year: string;
@@ -9,9 +12,12 @@ interface Experience {
 
 // Tipo para PROJECTS
 interface Project {
+  id: number;
   title: string;
-  image: string; // Caminho para a imagem
+  image: string | StaticImageData; // Caminho para a imagem
   description: string;
+  githubLink?: string;
+  previewLink?: string;
   technologies: string[];
 }
 
@@ -60,31 +66,43 @@ export const EXPERIENCES: Experience[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: 1,
     title: "E-Commerce Website",
-    image: "",
+    image: felipeAbout,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    githubLink: "https://github.com/FelipeAugustoPalmieri/portfolio",
+    previewLink: "",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
+    id: 2,
     title: "Task Management App",
-    image: "",
+    image: felipeAbout,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    githubLink: "",
+    previewLink: "",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
+    id: 3,
     title: "Portfolio Website",
-    image: "",
+    image: felipeAbout,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
+    githubLink: "",
+    previewLink: "",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
+    id: 4,
     title: "Blogging Platform",
-    image: "",
+    image: felipeAbout,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    githubLink: "",
+    previewLink: "",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
