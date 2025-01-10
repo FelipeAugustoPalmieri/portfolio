@@ -15,7 +15,7 @@ const Projects = () => {
       >
         Projects
       </motion.h2>
-      <div className="grid md:grid-cols-3 gap-8 md:gap:12">
+      <div className="grid md:grid-cols-3 gap-8">
         {PROJECTS.map((project) => (
           <ProjectCard
             key={project.id}
