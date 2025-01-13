@@ -18,6 +18,7 @@ interface Project {
   description: string;
   githubLink?: string;
   previewLink?: string;
+  tag: string;
   technologies: string[];
 }
 
@@ -73,6 +74,7 @@ export const PROJECTS: Project[] = [
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     githubLink: "",
     previewLink: "",
+    tag: "All",
     technologies: ["LARAVEL", "BLADE", "BOOTSTRAP", "MYSQL"],
   },
 ];
