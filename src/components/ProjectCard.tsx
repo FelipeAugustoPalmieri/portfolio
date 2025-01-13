@@ -53,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="text-white rounded-b-xl mt-3 bg-[#181818] py-6 px-4">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
         <p className="text-[#ADB7BE]">{description}</p>
-        <div className="flex flex-wrap mt-4">
+        <div className="flex items-center justify-center py-2">
           {technologies.map((tech, index) => (
             <span
               key={index}
