@@ -4,6 +4,7 @@ import { StaticImageData } from "next/image";
 import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Image from "next/image";
 
 interface ProjectCardProps {
   title: string;
@@ -27,7 +28,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <div className="group">
       <div className="bg-zinc-950 h-52 md:h-72 rounded-t-xl relative overflow-hidden">
-        <img
+        <Image
           src={imageUrl}
           alt={title}
           className="w-full h-full object-contain"
