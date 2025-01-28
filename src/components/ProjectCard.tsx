@@ -4,7 +4,6 @@ import { StaticImageData } from "next/image";
 import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 interface ProjectCardProps {
   title: string;
