@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-import menagementSystem from "@/assets/Menagement-system.png";
+// import menagementSystem from "@/assets/Menagement-system.png";
 
 interface Experience {
   year: string;
@@ -68,7 +68,7 @@ export const PROJECTS: Project[] = [
   {
     id: 1,
     title: "Task Management App",
-    image: menagementSystem,
+    image: "",
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     githubLink: "",
@@ -79,7 +79,7 @@ export const PROJECTS: Project[] = [
   {
     id: 2,
     title: "Chess Game",
-    image: menagementSystem,
+    image: "",
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     githubLink: "",
