@@ -18,7 +18,7 @@ interface Project {
   description: string;
   githubLink?: string;
   previewLink?: string;
-  tag: string;
+  tag: string[];
   technologies: string[];
 }
 
@@ -67,15 +67,26 @@ export const EXPERIENCES: Experience[] = [
 
 export const PROJECTS: Project[] = [
   {
-    id: 2,
+    id: 1,
     title: "Task Management App",
     image: menagementSystem,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     githubLink: "",
     previewLink: "",
-    tag: "All",
+    tag: ["All", "Web"],
     technologies: ["LARAVEL", "BLADE", "BOOTSTRAP", "MYSQL"],
+  },
+  {
+    id: 2,
+    title: "Chess Game",
+    image: menagementSystem,
+    description:
+      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    githubLink: "",
+    previewLink: "",
+    tag: ["All", "Web"],
+    technologies: ["JavaScript"],
   },
 ];
 
