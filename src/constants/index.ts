@@ -1,4 +1,3 @@
-import felipeAbout from "@/assets/felipeAbout.jpg";
 import { StaticImageData } from "next/image";
 import menagementSystem from "@/assets/Menagement-system.png";
 
